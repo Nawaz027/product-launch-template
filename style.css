@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: white;
+    
+
+}
+
+.body-div{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7)), url("./images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.parent {
+    display: flex;
+    width: 100vh;
+    height: 50vw;
+    align-items: flex-end;
+    
+}
+
+.child {
+    width: 23vw;
+    height: 30vw;
+    border-style: none;
+    margin-left: 80px;
+    color: #1cb495;
+
+
+}
+
+.child p{
+    line-height: 1.5em;
+}
+
+.child h1 {
+    line-height: 2.5em;
+    font-size: 52px;
+    color: white;
+}
+
+.child input {
+    color: #1cb495;
+    background-color: black;
+    box-sizing: border-box;
+    border-color: solid #1cb495;
+    border-radius: 4%;
+    margin-top: 15px;
+    padding: 15px;
+    width: 250px;
+    height: 20px;
+}
+
+.child button {
+    padding: 8px;
+    margin-left: 5px;
+    font-weight: bold;
+    background-color: #1cb495;
+    color: white;
+    border-radius: 6%;
+
+}
+
+a {
+    padding: 3px;
+    margin-left: 40px;
+
+}
+
+.fa {
+    color: grey;
+    text-decoration: none;
+    margin: 2px;
+}
+
+#footer {
+    margin-left: 80px;
+}
+.footer-content {
+    line-height: 1.5em;
+    font-size: 10px;
+    padding-top: 3px;
+    padding-bottom: 20px;
+}
